@@ -78,7 +78,7 @@ function Win() {
 
 function Loss() {
 	wrongAnswers++;
-	newQuestion = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>NOOOOOOOOOOOO!!!!!!!! The correct answer is: "+ answers[questionCounter] + "</p>" + "<img class='center-block img-wrong' src='images/array/wrong.gif'>";
+	newQuestion = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>NOOOOOOOOOOOO!!!!!!!! The correct answer is: "+ answers[questionCounter] + "</p>" + "<img class='center-block img-wrong' src='assets/images/array/wrong.gif'>";
 	$(".mainArea").html(newQuestion);
 	//$("#background").html(backgroundArray[questionCounter]);
 	setTimeout(wait, 5000); 
